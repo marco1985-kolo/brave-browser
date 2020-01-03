@@ -274,6 +274,7 @@ pipeline {
                     agent { label "linux-ci" }
                     environment {
                         GIT_CACHE_PATH = "${HOME}/cache"
+                        NO_AUTH_BOTO_CONFIG = "/home/ubuntu/.boto"
                     }
                     stages {
                         stage("checkout") {
@@ -320,6 +321,12 @@ pipeline {
                             }
                             steps {
                                 sh """
+cat > /home/ubuntu/.boto <<EOL
+[Boto]
+proxy = 127.0.0.1
+proxy_port = 3128
+EOL
+
 cat > /home/ubuntu/squid.conf <<EOL
 http_port 3128
 
