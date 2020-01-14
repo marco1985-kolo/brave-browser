@@ -1,4 +1,6 @@
 # Brave Browser
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmarco1985-kolo%2Fbrave-browser.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmarco1985-kolo%2Fbrave-browser?ref=badge_shield)
+
 
 
 ## Overview
@@ -41,3 +43,7 @@ For other versions of our browser, please see:
 Help us translate Brave to your language by submitting translations at https://www.transifex.com/brave/brave/
 
 Follow [@brave](https://twitter.com/brave) on Twitter for important news and announcements.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmarco1985-kolo%2Fbrave-browser.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmarco1985-kolo%2Fbrave-browser?ref=badge_large)
